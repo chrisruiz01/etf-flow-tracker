@@ -10,17 +10,23 @@ flow_df = pd.read_csv("data/fund_flows.csv", parse_dates=["date"])
 st.header("🔁 Compare Two ETFs Side-by-Side")
 
 # ETF dropdowns
+etf_options = sorted(df["ticker"].unique())
 col1, col2 = st.columns(2)
 with col1:
-    left_etf = st.selectbox("Select First ETF", sorted(df["ticker"].unique()), key="left")
+    left_etf = st.selectbox("Select First ETF", etf_options, key="left")
 with col2:
-    right_etf = st.selectbox("Select Second ETF", sorted(df["ticker"].unique()), key="right")
+    right_etf = st.selectbox("Select Second ETF", etf_options, key="right")
+
+# Prevent comparison of the same ETF
+if left_etf == right_etf:
+    st.warning("Please select two different ETFs to compare.")
+    st.stop()
 
 # Filter sector breakdown
 left_sector = df[df["ticker"] == left_etf][["sector", "weight_percentage"]].sort_values("weight_percentage", ascending=False)
 right_sector = df[df["ticker"] == right_etf][["sector", "weight_percentage"]].sort_values("weight_percentage", ascending=False)
 
-# Filter and roll fund flows
+# Filter and compute rolling fund flows
 left_flow = flow_df[flow_df["ticker"] == left_etf].sort_values("date")
 right_flow = flow_df[flow_df["ticker"] == right_etf].sort_values("date")
 left_flow["rolling_avg"] = left_flow["net_flow_usd"].rolling(7).mean()
