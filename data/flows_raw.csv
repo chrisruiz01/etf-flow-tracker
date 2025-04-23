@@ -1,0 +1,56 @@
+ticker,date,sector,weight_percentage
+SPY,2025-04-23,Basic Materials,1.97%
+SPY,2025-04-23,Communication Services,8.87%
+SPY,2025-04-23,Consumer Cyclical,9.84%
+SPY,2025-04-23,Consumer Defensive,5.94%
+SPY,2025-04-23,Energy,3.58%
+SPY,2025-04-23,Financial Services,12.48%
+SPY,2025-04-23,Healthcare,12.1%
+SPY,2025-04-23,Industrials,7.78%
+SPY,2025-04-23,Real Estate,2.3%
+SPY,2025-04-23,Technology,32.62%
+SPY,2025-04-23,Utilities,2.52%
+ARKK,2025-04-23,Basic Materials,0%
+ARKK,2025-04-23,Communication Services,21.49%
+ARKK,2025-04-23,Consumer Cyclical,16.9%
+ARKK,2025-04-23,Consumer Defensive,0%
+ARKK,2025-04-23,Energy,0%
+ARKK,2025-04-23,Financial Services,12.46%
+ARKK,2025-04-23,Healthcare,22.72%
+ARKK,2025-04-23,Industrials,0.80979%
+ARKK,2025-04-23,Real Estate,0%
+ARKK,2025-04-23,Technology,25.62%
+ARKK,2025-04-23,Utilities,0%
+QQQ,2025-04-23,Basic Materials,1.54%
+QQQ,2025-04-23,Communication Services,15.71%
+QQQ,2025-04-23,Consumer Cyclical,12.67%
+QQQ,2025-04-23,Consumer Defensive,6.39%
+QQQ,2025-04-23,Energy,0.45331%
+QQQ,2025-04-23,Financial Services,0.50976%
+QQQ,2025-04-23,Healthcare,6.34%
+QQQ,2025-04-23,Industrials,3.42%
+QQQ,2025-04-23,Real Estate,0.21012%
+QQQ,2025-04-23,Technology,51.43%
+QQQ,2025-04-23,Utilities,1.32%
+XLF,2025-04-23,Basic Materials,0%
+XLF,2025-04-23,Communication Services,0%
+XLF,2025-04-23,Consumer Cyclical,0%
+XLF,2025-04-23,Consumer Defensive,0%
+XLF,2025-04-23,Energy,0%
+XLF,2025-04-23,Financial Services,96.59%
+XLF,2025-04-23,Healthcare,0%
+XLF,2025-04-23,Industrials,0.45649%
+XLF,2025-04-23,Real Estate,0%
+XLF,2025-04-23,Technology,2.95%
+XLF,2025-04-23,Utilities,0%
+XLE,2025-04-23,Basic Materials,0%
+XLE,2025-04-23,Communication Services,0%
+XLE,2025-04-23,Consumer Cyclical,0%
+XLE,2025-04-23,Consumer Defensive,0%
+XLE,2025-04-23,Energy,100%
+XLE,2025-04-23,Financial Services,0%
+XLE,2025-04-23,Healthcare,0%
+XLE,2025-04-23,Industrials,0%
+XLE,2025-04-23,Real Estate,0%
+XLE,2025-04-23,Technology,0%
+XLE,2025-04-23,Utilities,0%
